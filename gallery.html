@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Sưu Tập - Đồ Án HTML5/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="gallery.html">Bộ Sưu Tập (5 Ảnh)</a></li>
+                <li><a href="contact.html">Giới Thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Bộ Sưu Tập Ảnh (Tối thiểu 5 hình)</h1>
+        <p>Trang này sử dụng thuộc tính Grid và bộ chọn <code>nth-child</code> để tạo hình dáng độc đáo cho từng bức ảnh.</p>
+        
+        <!-- Yêu cầu 6 (Grid) & Yêu cầu 9 (nth-child với border-radius khác nhau) & Yêu cầu 1 (>= 5 ảnh) -->
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Cảnh thiên nhiên 1">
+            <img src="https://images.unsplash.com/photo-1426604966848-d7adacbd02bff" alt="Cảnh thiên nhiên 2">
+            <img src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5" alt="Cảnh thiên nhiên 3">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Cảnh thiên nhiên 4">
+            <img src="https://images.unsplash.com/photo-1511497584788-876761197069" alt="Cảnh thiên nhiên 5">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Thiết kế bởi Hải</p>
+    </footer>
+
+</body>
+</html>
